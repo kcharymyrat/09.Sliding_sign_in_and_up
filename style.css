@@ -71,6 +71,11 @@ body {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
 }
 
 .sign_in_up {
@@ -110,4 +115,14 @@ body {
 
 .hidden {
     display: none;
+}
+
+.border-reverse {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
