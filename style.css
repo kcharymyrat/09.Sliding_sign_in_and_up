@@ -99,11 +99,11 @@
     }
     
     section#forms .sing_in_up_form#sign_up_form {
-        z-index: 200;
+        z-index: 100;
     }
     
     section#forms .sing_in_up_form#sign_in_form {
-        z-index: 100;
+        z-index: 200;
     }
     
     section#sign_menu {
@@ -118,6 +118,14 @@
         left: 0;
         width: 100%;
         height: 100%;
+    }
+    
+    section#sign_menu .sign_up_in_menu#sign_up_menu {
+        z-index: 2;
+    }
+    
+    section#sign_menu .sign_up_in_menu#sign_in_menu {
+        z-index: 1;
     }
     
     .sing_in_up_form {
