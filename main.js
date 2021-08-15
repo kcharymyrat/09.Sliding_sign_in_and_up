@@ -12,6 +12,8 @@ const signUpFillSection = document.querySelector("#sign_up_fill");
 const hiddenSectionToggler = (e) => {
     signInFillSection.classList.toggle("hidden");
     signUpFillSection.classList.toggle("hidden");
+
+
 }
 
 signUpSwitch.addEventListener("click", hiddenSectionToggler);
