@@ -13,50 +13,51 @@
 <body>
     <main id="sign_in_up_main" class="not_hidden">
 
-        <section class=sign_in_up id="sign_in_fill">
-            <div class="sing_in_up_form">
+        <section id="forms">
+            <div class="sing_in_up_form" id="sign_up_form">
+                <h2>Create Account</h2>
+                <p>or use your email for registration</p>
+                <form action="" class="form">
+                    <input type="text" name="name" id="up_name_id" placeholder="Name">
+                    <input type="email" name="email" id="up_email_id" placeholder="Email">
+                    <input type="password" name="password" id="up_password_id" placeholder="Password">
+                    <button type="submit" class="btn btn-red-bg">
+                        SIGN UP
+                </button>
+                </form>
+            </div>
+            <div class="sing_in_up_form" id="sign_in_form">
                 <h2>Sign In</h2>
-                <form action="" class="form" id="sign_in_form">
+                <form action="" class="form">
                     <input type="email" name="email" id="in_email_id" placeholder="Email">
                     <input type="password" name="password" id="in_password_id" placeholder="Password">
-                    <a href="#" class="black_link">
-                        Forgot your password?
-                    </a>
+                    <p>
+                        <a href="#" class="black_link">
+                            Forgot your password?
+                        </a>
+                    </p>
                     <button type="submit" class="btn btn-red-bg">
                         SIGN IN
                     </button>
                 </form>
             </div>
-            <div class="sign_up_in_menu">
+        </section>
+
+
+        <section id="sign_menu">
+            <div class="sign_up_in_menu" id="sign_up_menu">
                 <h2>Hello, Friend!</h2>
                 <p>Enter your personal details and start journey with us</p>
                 <a href="#" class="btn btn-transp-bg" id="sign_up_switch">
                     SIGN UP
                 </a>
             </div>
-        </section>
-
-
-
-        <section class="sign_in_up hidden" id="sign_up_fill">
-            <div class="sign_up_in_menu border-reverse">
+            <div class="sign_up_in_menu" id="sign_in_menu">
                 <h2>Welcome Back!</h2>
                 <p>To keep connected with us please login with your personal info</p>
                 <a href="#" class="btn btn-transp-bg" id="sign_in_switch">
                         SIGN IN
                 </a>
-            </div>
-            <div class="sing_in_up_form border-reverse">
-                <h2>Create Account</h2>
-                <p>or use your email for registration</p>
-                <form action="" class="form" id="sign_up_form">
-                    <input type="text" name="name" id="up_name_id" placeholder="Name">
-                    <input type="email" name="email" id="up_email_id" placeholder="Email">
-                    <input type="password" name="password" id="up_password_id" placeholder="Password">
-                    <button type="submit" class="btn btn-red-bg">
-                            SIGN UP
-                    </button>
-                </form>
             </div>
         </section>
 
