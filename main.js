@@ -2,16 +2,16 @@ const signUpSwitch = document.querySelector("#sign_up_switch");
 // console.log(signUpSwitch)
 const signInSwitch = document.querySelector("#sign_in_switch");
 // console.log(signInSwitch)
-const signInFillSection = document.querySelector("#sign_in_fill");
-// console.log(signInFillSection);
-const signUpFillSection = document.querySelector("#sign_up_fill");
-// console.log(signUpFillSection);
+const signInUpForm = document.querySelector("#forms");
+// console.log(signInUpForm);
+const signInUpMenu = document.querySelector("#sign_menu");
+// console.log(signInUpMenu);
 
 // element.classList.toggle("mystyle");
 
 const hiddenSectionToggler = (e) => {
-    signInFillSection.classList.toggle("hidden");
-    signUpFillSection.classList.toggle("hidden");
+    signInUpForm.classList.toggle("move-right");
+    signInUpMenu.classList.toggle("move-left");
 
 
 }
